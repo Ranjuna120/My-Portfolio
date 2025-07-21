@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "my-portfolio",
+  "description": "Rivith Ranjuna - Personal Portfolio Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Rivith Ranjuna <rivithranjuna60@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/Ranjuna120/My-Portfolio"
   },
   "keywords": [
     "gatsby"
@@ -15,20 +15,14 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "clean": "gatsby clean"
   },
-  "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write"
-    ],
-    "*.js": [
-      "eslint --fix"
-    ]
+  "resolutions": {
+    "graphql": "^15.5.0"
   },
   "dependencies": {
     "animejs": "^3.1.0",
@@ -72,8 +66,6 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
   }
 }

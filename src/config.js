@@ -1,26 +1,27 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'rivithranjuna60@gmail.com',
+  
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Ranjuna120',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/r_i_v_i_t_h/',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/bchiang7',
+    // },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/rivithranjuna',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/rivith.ranjuna/',
     },
   ],
 

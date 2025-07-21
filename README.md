@@ -1,87 +1,91 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  brittanychiang.com - v4
-</h1>
-<p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
-</p>
+# My Portfolio Website
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+Personal portfolio website of **Rivith Ranjuna** - Software Engineer & Web Developer.
 
-## 🚨 Forking this repo (please read!)
+Built with Gatsby.js, React, and modern web technologies.
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+## 🛠 Technologies Used
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+- **Gatsby.js** - React-based static site generator
+- **React** - JavaScript library for building user interfaces
+- **Styled Components** - CSS-in-JS library
+- **GraphQL** - Query language for APIs
+- **Vercel** - Deployment and hosting
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+## 🚀 Getting Started
 
-### TL;DR
+### Prerequisites
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+- Node.js (v14 or higher)
+- npm or yarn
 
-## 🛠 Installation & Set Up
+### Installation
 
-1. Install the Gatsby CLI
+1. Clone the repository
+```bash
+git clone https://github.com/Ranjuna120/My-Portfolio.git
+cd My-Portfolio
+```
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+2. Install dependencies
+```bash
+npm install --legacy-peer-deps
+```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+3. Start the development server
+```bash
+npm run develop
+# or
+npm run dev
+```
 
-   ```sh
-   nvm install
-   ```
+4. Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
 
-3. Install dependencies
+## 📁 Project Structure
 
-   ```sh
-   yarn
-   ```
+```
+├── content/
+│   ├── jobs/          # Work experience
+│   ├── projects/      # Project information
+│   └── featured/      # Featured projects
+├── src/
+│   ├── components/    # React components
+│   ├── images/        # Images and assets
+│   ├── pages/         # Gatsby pages
+│   └── styles/        # Styled components and themes
+└── static/            # Static assets
+```
 
-4. Start the development server
+## 🔧 Available Scripts
 
-   ```sh
-   npm start
-   ```
+- `npm run develop` - Start development server
+- `npm run dev` - Alias for develop
+- `npm run build` - Build for production
+- `npm run serve` - Serve production build locally
+- `npm run clean` - Clear Gatsby cache
 
-## 🚀 Building and Running for Production
+## 📝 Customization
 
-1. Generate a full static production build
+1. Update personal information in `src/config.js`
+2. Add your own projects in `content/projects/`
+3. Add work experience in `content/jobs/`
+4. Replace images in `src/images/`
+5. Update resume in `static/resume.pdf`
 
-   ```sh
-   npm run build
-   ```
+## 🚀 Deployment
 
-1. Preview the site as it will appear once deployed
+This site is ready to deploy to Vercel:
 
-   ```sh
-   npm run serve
-   ```
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically build and deploy your site
+3. Set build command to `npm run build`
+4. Set output directory to `public`
+5. Set install command to `npm install --legacy-peer-deps`
 
-## 🎨 Color Reference
+## 📄 License
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+Original design template by [Brittany Chiang](https://brittanychiang.com/) - Thank you for the beautiful design inspiration!
