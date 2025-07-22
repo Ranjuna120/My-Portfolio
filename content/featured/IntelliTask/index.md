@@ -1,24 +1,27 @@
 ---
 date: '2024-03-01'
-title: 'IntelliTask - AI Task Reminder Assistant'
+title: 'IntelliTask - AI-Powered Task Management'
 cover: './demo.png'
 github: 'https://github.com/Ranjuna120/Task-Reminder-Assistant--IntelliTask'
-external: ''
+external: 'https://intellitask-demo.streamlit.app/'
 tech:
   - Python
-  - AI/ML
+  - Machine Learning
   - Natural Language Processing
-  - Task Management
-  - Automation
+  - Streamlit
+  - TensorFlow
+  - SQLite Database
+  - Task Automation
 showInProjects: true
 ---
 
-An intelligent task reminder assistant powered by AI that helps users manage their daily tasks efficiently. Features natural language processing for smart task categorization and automated reminders.
+An intelligent task management system powered by machine learning that revolutionizes how users organize and prioritize their daily tasks. Features advanced NLP for smart categorization and predictive task scheduling.
 
-Key features:
-- AI-powered task categorization
-- Smart reminder scheduling
-- Natural language task input
-- Priority-based task management
-- Automated notification system
-- User-friendly interface
+**🤖 Key Features:**
+- **AI-Powered Categorization** - Automatic task classification using ML algorithms
+- **Smart Priority Scoring** - Dynamic priority assignment based on deadlines and importance
+- **Natural Language Processing** - Input tasks using natural language commands
+- **Predictive Scheduling** - AI suggests optimal task scheduling based on user patterns
+- **Automated Reminders** - Intelligent notification system with snooze functionality
+- **Analytics Dashboard** - Productivity insights and task completion metrics
+- **Voice Commands** - Voice-to-text task input with speech recognition
