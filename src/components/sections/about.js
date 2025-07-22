@@ -125,7 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'Python', 'MongoDB'];
+  const skills = [
+    'JavaScript (ES6+)', 
+    'TypeScript', 
+    'React', 
+    'Node.js', 
+    'Python', 
+    'MongoDB',
+    'Express.js',
+    'MySQL',
+    'Git/GitHub',
+    'AWS',
+    'HTML5 & CSS3',
+    'Machine Learning'
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,9 +148,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Rivith and I enjoy creating things that live on the internet. My
-              interest in web development started when I discovered the power of modern JavaScript
-              frameworks and how they can create amazing user experiences.
+              Hello! My name is Rivith and I enjoy creating innovative digital solutions that make a difference. My
+              journey in software development started with curiosity about how technology can solve real-world problems,
+              and has evolved into a passion for building scalable, user-centric applications.
             </p>
 
             <p>
