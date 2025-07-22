@@ -1,8 +1,16 @@
-# My Portfolio Website
-
-Personal portfolio website of **Rivith Ranjuna** - Software Engineer & Web Developer.
+# My Portfolio
 
 Built with Gatsby.js, React, and modern web technologies.
+
+Live at: [Portfolio Website](https://my-portfolio-ranjuna120.vercel.app)
+
+## Features
+- Responsive design
+- Modern UI/UX
+- Fast loading
+- SEO optimized
+
+Last updated: July 22, 2025
 
 ## 🛠 Technologies Used
 
