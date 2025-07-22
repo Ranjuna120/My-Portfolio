@@ -1,24 +1,26 @@
 ---
 date: '2024-02-01'
-title: 'Weatherly - Weather App'
-cover: './demo.png'
+title: 'Weatherly - Modern Weather App'
+cover: './demo2.png'
 github: 'https://github.com/Ranjuna120/weatherly'
-external: ''
+external: 'https://weatherly-app-demo.vercel.app/'
 tech:
-  - JavaScript
-  - HTML5
-  - CSS3
+  - Vanilla JavaScript
+  - HTML5 & CSS3
   - OpenWeather API
   - Responsive Design
+  - Progressive Web App
+  - Geolocation API
 showInProjects: true
 ---
 
-A modern, responsive weather application that provides real-time weather information with an intuitive user interface. Built with vanilla JavaScript and integrated with OpenWeather API for accurate weather data.
+A sleek, modern weather application that provides comprehensive weather information with stunning visual design. Built with vanilla JavaScript to demonstrate core programming skills without framework dependencies.
 
-Key features:
-- Real-time weather data
-- Location-based weather search
-- 5-day weather forecast
-- Beautiful, responsive UI
-- Geolocation support
-- Weather icons and animations
+**🌤️ Key Features:**
+- **Real-time Weather Data** - Live weather updates from OpenWeather API
+- **Location-based Search** - Search weather by city or use current location
+- **5-Day Forecast** - Extended weather predictions with hourly details
+- **Progressive Web App** - Installable and offline-capable
+- **Beautiful Animations** - Smooth transitions and weather-based themes
+- **Responsive Design** - Optimized for desktop, tablet, and mobile
+- **Dark/Light Mode** - Theme switching based on user preference
